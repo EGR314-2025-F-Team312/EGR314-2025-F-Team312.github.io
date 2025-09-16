@@ -40,6 +40,6 @@ Team [name TBD] will design and build a cost-effective mini weather station netw
 
 ## Product Mission Statement
 
-The product mission statement details the purpose and direction of Project [name TBD], which was determined through the discussion with the stakeholders, professors & TA's, and multiple internal team discussions. 
+The product mission statement details the purpose and direction of Project [name TBD], which was determined through discussion with the stakeholders, professors & TA's, and multiple internal team discussions. 
 
 The mission of Project [name TBD] is to design, build, debug, and test a wireless weather station network for the State of Arizona's Department of Forestry and Wildfire Management, with the purpose of predicting susceptible widlfire areas to proactively improve wildfire detection & suppression, thereby decreasing wildfire suppression time.
