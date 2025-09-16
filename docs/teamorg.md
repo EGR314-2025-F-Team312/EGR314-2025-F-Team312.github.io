@@ -28,7 +28,7 @@ Team goals were determined through discussion, in which the common goals were hi
 
 - Create a product that does not interfere with the environment, ecosystem, or any local, state, and federal rules and regulations
 
-These goals were determined by the information presented at the stakeholder interview, and was further refined during discussions in class and in team meetings. As the stakeholder conducts a reactive approach to fighting wildfires, Team [name TBD] is focused on developing a proactive approach. In this way, the stakeholder can predict potential wildfire spots before they happen, thereby increasing their wildfire detection efficiency.  
+These goals were determined by the information presented at the stakeholder interview, and was further refined during discussions in class and in team meetings. As the stakeholder conducts only a reactive approach to fighting wildfires, Team [name TBD] is focused on developing a proactive approach. In this way, the stakeholder can predict potential wildfire spots before they happen, thereby increasing their wildfire detection efficiency.  
 
 These goals will help Team [name TBD] in academia and in industry, as it further develops technical, project management, and teammwork skills, all of which are important in the work force and future academic pursuits. 
 
