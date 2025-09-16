@@ -8,7 +8,7 @@ tags:
 <center>
 <font size= "8">Project Name TBD</font><br>
 
-<font size= "6"> Team 312</font><br>
+<font size= "6"> Team Name TBD</font><br>
 
 <font size= "5"> Hannah Nair, Luke Willet, Joshua Petrone, Jakob Clark, Musye Gaim</font><br>
 
