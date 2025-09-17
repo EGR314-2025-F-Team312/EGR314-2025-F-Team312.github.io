@@ -11,6 +11,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://embedded-systems-design.github.io/template_report/consept_gen/</loc>
+         <lastmod>2025-09-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://embedded-systems-design.github.io/template_report/esp-32-table/</loc>
          <lastmod>2025-09-17</lastmod>
          <changefreq>daily</changefreq>
