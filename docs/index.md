@@ -21,7 +21,7 @@ tags:
 
 ## Page Links
 
-[Ideation and Concept Generation](./concept_gen/)
+[Ideation and Concept Generation](./concept_gen.md)
 
 Lorem markdownum gradus, qui largis, nec pater pleno: fatum. Adspexit cursus
 cur, aut in adhuc crimina **habebat**: pro.
