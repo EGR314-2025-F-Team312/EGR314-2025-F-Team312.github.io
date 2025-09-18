@@ -14,6 +14,10 @@ The audience for our project is both in academia and in industry. These stakehol
 
 The brainstorming process generated a total of 120 ideas. During the process, no idea was dismissed in order to encourage creative thinking. The ideas generated ranged from the type of sensors to use, how to use them, how the system will function, etc. The figure below depicts all of the ideas generated during this process. 
 
-<img src="./generated_ideas.png" alt="Generated Ideas" width="500">
+![alt text](generated_ideas.png)
 
-Afterwards, the generated ideas were sorted based on similar themes. The themes chosen were Life Cycle, Sensors/Data, Structure/Ergonomics, Communication, Prevention, and Response
+Afterwards, the generated ideas were sorted based on similar themes. The themes chosen were Life Cycle, Sensors/Data, Structure/Ergonomics, Communication, Prevention, and Response. The figure below depicts all of the ideas after being sorted. 
+
+![alt text](sorted_ideas.png)
+
+The ideas were then ranked based on their feasibility, specifically in reg
