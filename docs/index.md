@@ -6,9 +6,9 @@ tags:
 ---
 
 <center>
-<font size= "8">Project Name TBD</font><br>
+<font size= "8">Project Firesight</font><br>
 
-<font size= "6"> Team Name TBD</font><br>
+<font size= "6"> Team Embermen</font><br>
 
 <font size= "5"> Hannah Nair, Luke Willet, Joshua Petrone, Jakob Clark, Musye Gaim</font><br>
 
