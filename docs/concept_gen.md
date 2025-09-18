@@ -10,10 +10,10 @@ Thus, Project [name TBD] purpose is to create a wireless weather station network
 
 The audience for our project is both in academia and in industry. These stakeholders are our professor, Dr. Dajiang Suo, our teaching assistants, the State of Arizona’s Department of Forestry and Fire Management, local fire departments, local, state, and/or federal environmental agencies, environmental or wildlife research groups, and local residential communities. Our stakeholders can even extend to Arizona’s state government, as extreme wildfires can produce a domino effect of consequences that affect Arizona as a whole. 
 
-## Idea Generation
+## Idea Generation - Sort, Rank, Recombine, Group
 
 The brainstorming process generated a total of 120 ideas. During the process, no idea was dismissed in order to encourage creative thinking. The ideas generated ranged from the type of sensors to use, how to use them, how the system will function, etc. The figure below depicts all of the ideas generated during this process. 
 
-<img src = "generated_ideas.png">
+<img src="./generated_ideas.png" alt="Generated Ideas" width="500">
 
-
+Afterwards, the generated ideas were sorted based on similar themes. The themes chosen were Life Cycle, Sensors/Data, Structure/Ergonomics, Communication, Prevention, and Response
