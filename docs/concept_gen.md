@@ -32,7 +32,7 @@ Finally, a concept prototype was built out of everyday materials to envision Pro
 
 ![alt text](concept_sketch.png)
 
-<font size= "12">The features in our concept sketch satisfy the needs for wildfire response organizations by providing real-time data through wireless communication and the incorporation of a durable mechanical casing. 
+The features in our concept sketch satisfy the needs for wildfire response organizations by providing real-time data through wireless communication and the incorporation of a durable mechanical casing. 
 
 The wireless communication significantly reduces the amount of physical interaction between the product and the environment, satisfying the need for environmental protection. 
     
@@ -48,7 +48,7 @@ Project Firesight will include an HMI screen to interface with the control panel
 
 Durability, safety, and comfort will be very important to the end product because the installment of our modules is in remote and hard to reach areas, which is not something anyone wants to do twice. Durability during any sort of weather these areas can throw at us is of utmost importance, as no data can be transmitted if the station is incapacitated. Project Firesight will make sure wildlife does not interact with the product, as a curious animal may be able to destroy the product. Most importantly, the product must not be harmful to any ecosystems that it is within. 
 
-Project Firesight will need to be installed manually, and reaching the remote forest can be a challenge. In addition, the modules will have to be calibrated to each other and confirm that all the modules are functioning together and communicating to the main control panel. To conduct this effectively, an instruction and maintenance manual will be provided that will cover the specifics.</font><br>
+Project Firesight will need to be installed manually, and reaching the remote forest can be a challenge. In addition, the modules will have to be calibrated to each other and confirm that all the modules are functioning together and communicating to the main control panel. To conduct this effectively, an instruction and maintenance manual will be provided that will cover the specifics.
 
 Below is a YouTube presentation on Project Firesight's idea generation process:
 
