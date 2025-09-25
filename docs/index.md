@@ -1,5 +1,5 @@
 ---
-title: Welcome
+title: Welcome!
 tags:
 - tag1
 - tag2
