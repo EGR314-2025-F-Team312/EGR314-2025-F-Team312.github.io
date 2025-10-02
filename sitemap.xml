@@ -16,11 +16,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://embedded-systems-design.github.io/template_report/component_sel/</loc>
-         <lastmod>2025-10-02</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://embedded-systems-design.github.io/template_report/concept_gen/</loc>
          <lastmod>2025-10-02</lastmod>
          <changefreq>daily</changefreq>
@@ -56,7 +51,12 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://embedded-systems-design.github.io/template_report/component-selection-example/</loc>
+         <loc>https://embedded-systems-design.github.io/template_report/component-selection/</loc>
+         <lastmod>2025-10-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://embedded-systems-design.github.io/template_report/component_selection/component_sel/</loc>
          <lastmod>2025-10-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
