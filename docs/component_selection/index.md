@@ -292,9 +292,56 @@ title: Component Selection
 
 **Rationale:** The component we are going with is the TC74 because we have stock of this sensor and will not cost us to use. It will meet all the requirements needed for this sensor. If we did not have this sensor in stock the best option would be the SLTM20 due to it being the most resistant to high temperatures, has a better accuracy than the TC74, and is the cheapest unit.
 
+### Inner Casing Motor Driver
+
+*Table 7: Inner Casing Motor Driver Selecction*
+
+1. TI DRV8835 Motor Driver
+
+    ![](driver_1.png)
+
+    * $1.95/each
+    * [Product Link](https://www.digikey.com/en/products/detail/texas-instruments/DRV8835DSSR/3088201)
+
+    | Pros                                                              | Cons                                 |
+    | ----------------------------------------------------------------- | -------------------------------------|
+    | Cheap                                                             | Lower top motor voltage              |
+    | Low Voltage Operation (VM input: 0-11V)                           | Lots of pins to solder               |
+    | 1.5A continuous current                                           |                    
+
+2. TI DRV8833 Motor Driver
+
+    ![](driver_2.png)
+
+    * $2.18/each
+    * [Product Link](https://www.digikey.com/en/products/detail/texas-instruments/DRV8833CPWPR/4972147)
+
+    | Pros                                                              | Cons                                 |
+    | ----------------------------------------------------------------- | -------------------------------------|
+    | Built in current regulation                                       | Will shutdown at consistent high load|
+    | Over temperature protection features                              | Uses more MCU pins than others       |
+    | Compatible with 3.3V logic                                        |             
+
+3. TI DRV8838 Motor Driver
+
+    ![](driver_3.png)
+
+    * $1.03/each
+    * [Product Link](https://www.digikey.com/en/products/detail/texas-instruments/DRV8838DSGR/4767638?s=N4IgTCBcDaICICUBqAOFBmFcDKBxBIAugL5A)
+
+    | Pros                                                              | Cons                                 |
+    | ----------------------------------------------------------------- | -------------------------------------|
+    | Does not take up a lot of MCU I/O                                 | Solder using heat plate              |
+    | Up to 1.8A continuous current                                     | No stall handling built in           |
+    | Built in protections                                              | Needs good copper traces             |
+
+**Choice:** TI DRV8838 Motor Driver 
+
+**Rationale:** The best choice is the TI DRV8838 Motor Driver as it satisfies our basic project needs while having manageable cons compared to other choices. Even though it will require a heat plate to solder and needs good copper traces, these can be easily learned and implemented. In contrast, a motor driver that will shutdown at a consistent high load or use more MCU pins could lead to substantial issues. Furthermore, this motor driver has slightly more headroom on continuous current. 
+
 ## Subsystem 5: Wireless Communication 
 
-*Table 7: Wireless Communication Selection*
+*Table 8: Wireless Communication Selection*
 
 ### Wireless Communication
 
