@@ -1061,6 +1061,15 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#inner-casing-motor-driver" class="md-nav__link">
+    <span class="md-ellipsis">
+      Inner Casing Motor Driver
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -1695,8 +1704,104 @@
 </ol>
 <p><strong>Choice:</strong> TC74A4-3.3VCTTR Temperature Sensor </p>
 <p><strong>Rationale:</strong> The component we are going with is the TC74 because we have stock of this sensor and will not cost us to use. It will meet all the requirements needed for this sensor. If we did not have this sensor in stock the best option would be the SLTM20 due to it being the most resistant to high temperatures, has a better accuracy than the TC74, and is the cheapest unit.</p>
+<h3 id="inner-casing-motor-driver">Inner Casing Motor Driver</h3>
+<p><em>Table 7: Inner Casing Motor Driver Selecction</em></p>
+<ol>
+<li>
+<p>TI DRV8835 Motor Driver</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="driver_1.png" data-desc-position="bottom"><img alt="" src="driver_1.png"></a></p>
+<ul>
+<li>$1.95/each</li>
+<li><a href="https://www.digikey.com/en/products/detail/texas-instruments/DRV8835DSSR/3088201">Product Link</a></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cheap</td>
+<td>Lower top motor voltage</td>
+</tr>
+<tr>
+<td>Low Voltage Operation (VM input: 0-11V)</td>
+<td>Lots of pins to solder</td>
+</tr>
+<tr>
+<td>1.5A continuous current</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>TI DRV8833 Motor Driver</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="driver_2.png" data-desc-position="bottom"><img alt="" src="driver_2.png"></a></p>
+<ul>
+<li>$2.18/each</li>
+<li><a href="https://www.digikey.com/en/products/detail/texas-instruments/DRV8833CPWPR/4972147">Product Link</a></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Built in current regulation</td>
+<td>Will shutdown at consistent high load</td>
+</tr>
+<tr>
+<td>Over temperature protection features</td>
+<td>Uses more MCU pins than others</td>
+</tr>
+<tr>
+<td>Compatible with 3.3V logic</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>TI DRV8838 Motor Driver</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="driver_3.png" data-desc-position="bottom"><img alt="" src="driver_3.png"></a></p>
+<ul>
+<li>$1.03/each</li>
+<li><a href="https://www.digikey.com/en/products/detail/texas-instruments/DRV8838DSGR/4767638?s=N4IgTCBcDaICICUBqAOFBmFcDKBxBIAugL5A">Product Link</a></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Does not take up a lot of MCU I/O</td>
+<td>Solder using heat plate</td>
+</tr>
+<tr>
+<td>Up to 1.8A continuous current</td>
+<td>No stall handling built in</td>
+</tr>
+<tr>
+<td>Built in protections</td>
+<td>Needs good copper traces</td>
+</tr>
+</tbody>
+</table>
+</li>
+</ol>
+<p><strong>Choice:</strong> TI DRV8838 Motor Driver </p>
+<p><strong>Rationale:</strong> The best choice is the TI DRV8838 Motor Driver as it satisfies our basic project needs while having manageable cons compared to other choices. Even though it will require a heat plate to solder and needs good copper traces, these can be easily learned and implemented. In contrast, a motor driver that will shutdown at a consistent high load or use more MCU pins could lead to substantial issues. Furthermore, this motor driver has slightly more headroom on continuous current. </p>
 <h2 id="subsystem-5-wireless-communication">Subsystem 5: Wireless Communication</h2>
-<p><em>Table 7: Wireless Communication Selection</em></p>
+<p><em>Table 8: Wireless Communication Selection</em></p>
 <h3 id="wireless-communication">Wireless Communication</h3>
 <ol>
 <li>
