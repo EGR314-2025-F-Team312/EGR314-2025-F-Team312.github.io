@@ -196,3 +196,147 @@ title: Component Selection
 
 **Rationale:** Option 2 is the best choice for sensor threshold indication (humidity, temperature, wind direction) because of its low power consumption and high visibility. Furthermore, the RGB function of option 3 would go unused, making the further subsystem design complications unnecessary.
 
+## Subsystem 4: Mechanical Casing & Inner Casing Temperature 
+
+*Table 5: Mechanical Casing Selection*
+
+### Mechanical Casing
+
+1. High-grade ABS material
+
+    ![](casing_1.png)
+
+    * $21.99/each
+    * [Product Link](https://www.amazon.com/Gratury-Waterproof-Enclosure-Electrical-370%C3%97270%C3%97150mm/dp/B08281V2RL/ref=asc_df_B0BFPXDN8M?tag=bingshoppinga-20&linkCode=df0&hvadid=80333201323789&hvnetw=o&hvqmt=e&hvbmt=be&hvdev=c&hvlocint=&hvlocphy=77827&hvtargid=pla-4583932719993871&th=1)
+
+    | Pros                                                              | Cons                                 |
+    | ----------------------------------------------------------------- | -------------------------------------|
+    | Weatherproof & waterproof                                         | Not fireproof                        |
+    | Mounting panel included for easy PCB installation                 | Not lightning proof                  |
+    | Lightweight                                                       |                     
+
+2. Diecast Aluminum
+
+    ![](casing_2.png)
+
+    * $43.29/each
+    * [Product Link](https://www.solutionsdirectonline.com/1550wgbk-9x6x2-diecast-aluminum-enclosure-hammond-manufacturing?msclkid=d75319495d7a1ac47a2a71958aeaedcd&utm_source=bing&utm_medium=cpc&utm_campaign=**LP%20Shop%20-%20Catch%20All%20-%20Brand%20%3E%20Hammond&utm_term=4583726566566583&utm_content=Catch%20All%20-%20Hammond)
+
+    | Pros                                                              | Cons                                 |
+    | ----------------------------------------------------------------- | -------------------------------------|
+    | IP66 Rated                                                        | Heavy                                |
+    | IP66 Gasket included                                              | Hard to modify/drill into            |
+    | Powder Coated Black                                               | Not fireproof                        |
+
+3. Fireproof Box
+
+    ![](casing_3.png)
+
+    * $42.50/each
+    * [Product Link](https://www.amazon.com/SentrySafe-H0100-Fireproof-Waterproof-Cubic/dp/B00GE586CY?source=ps-sl-shoppingads-lpcontext&ref_=bing_fplfs&tag=txtadnwplace1-20&th=1)
+
+    | Pros                                                              | Cons                                 |
+    | ----------------------------------------------------------------- | -------------------------------------|
+    | Fireproof                                                         | Expensive                            |
+    | Waterproof                                                        | Heavy                                |
+    | Durable                                                           | Thick walls                          |
+
+**Choice:** High-grade ABS 
+
+**Rationale:** The high-grade ABS will be the best material and composition as it is waterproof to help with groundwater. Furthermore, it already has a PCB mounting method and it is easy to drill into to add our external sensors. Some people would argue that this is not the best option because it is not fireproof. This problem is solved by burying the box at least 1 foot underground. This will keep our electronics safe in the event of a wildfire. It is also the cheapest option.
+
+*Table 6: Inner Casing Temperature Sensor Selection*
+
+### Inner Casing Temperature Sensor
+
+1. TC74A4-3.3VCTTR Temperature Sensor
+
+    ![](casingsens_1.png)
+
+    * $1.15/each
+    * [Product Link](https://www.digikey.com/en/products/detail/microchip-technology/TC74A4-3-3VCTTR/443268)
+
+    | Pros                                                              | Cons                                 |
+    | ----------------------------------------------------------------- | -------------------------------------|
+    | Cheap                                                             | Fragile                              |
+    | Fairly accurate                                                   | error margin up to 3 degrees         |
+    | Fairly simple to solder                                           |                     
+
+2. SLTM20W87F Temperature Sensor
+
+    ![](casingsens_2.png)
+
+    * $0.76/each
+    * [Product Link](https://estore.st.com/en/stlm20w87f-cpn.html?)
+
+    | Pros                                                              | Cons                                 |
+    | ----------------------------------------------------------------- | -------------------------------------|
+    | Cheap                                                             | Fragile                              |
+    | Measures up to 130 degrees Celsius                                | Older I2C timing                     |
+    | Easy to solder                                                    | Slow temperature updates             |
+
+3. AS6218-AWLT-L Temperature Sensor
+
+    ![](casingsens_3.png)
+
+    * $1.09/each
+    * [Product Link](https://www.mouser.com/ProductDetail/ams-OSRAM/AS6218-AWLT-L?qs=xZ%2FP%252Ba9zWqY9z325DmyZ1Q%3D%3D&mgh=1&utm_source=chatgpt.com)
+
+    | Pros                                                              | Cons                                 |
+    | ----------------------------------------------------------------- | -------------------------------------|
+    | Measures up to 125 degrees Celsius                                | Fragile                              |
+    | Accurate up to 0.8 degrees Celsius                                | Could be hard to solder              |
+    | Can mount straight to PCB                                         |              
+
+**Choice:** TC74A4-3.3VCTTR Temperature Sensor 
+
+**Rationale:** The component we are going with is the TC74 because we have stock of this sensor and will not cost us to use. It will meet all the requirements needed for this sensor. If we did not have this sensor in stock the best option would be the SLTM20 due to it being the most resistant to high temperatures, has a better accuracy than the TC74, and is the cheapest unit.
+
+## Subsystem 5: Wireless Communication 
+
+*Table 7: Wireless Communication Selection*
+
+### Wireless Communication
+
+1. ESP-NOW
+
+    ![](comm_1.png)
+
+    * N/A cost
+    * [Product Link](https://www.espressif.com/en/solutions/low-power-solutions/esp-now)
+
+    | Pros                                                              | Cons                                 |
+    | ----------------------------------------------------------------- | -------------------------------------|
+    | Low latency                                                       | Only pairs up to 20 devices          |
+    | Simple API (no low level programming)                             | Only works with Espressif devices    |
+    | Easily integrates with ESP32                                      |                     
+
+2. ESP-MESH
+
+    ![](comm_2.png)
+
+    * N/A cost
+    * [Product Link](https://www.espressif.com/en/products/sdks/esp-wifi-mesh/overview)
+
+    | Pros                                                              | Cons                                 |
+    | ----------------------------------------------------------------- | -------------------------------------|
+    | Up to 10Mbps of data transfer                                     | Greater power consumption            |
+    | Mesh automatically forms                                          | More complex API                     |
+    | Mesh self heals                                                   |                         
+ 
+3. Bluetooth (ESP-IDF)
+
+    ![](comm_3.png)
+
+    * N/A cost
+    * [Product Link](https://www.espressif.com/en/products/sdks/esp-idf)
+
+    | Pros                                                              | Cons                                 |
+    | ----------------------------------------------------------------- | -------------------------------------|
+    | Lots of documentation and examples                                | Higher latency                       |
+    | VS Code extension available                                       | Most complex API                     |
+    | Security measures                                                 |                          
+
+**Choice:** ESP-NOW 
+
+**Rationale:** The best choice for wireless communication is ESP-NOW. Although it can only pair with up to 20 Espressif devices, our network topology only requires a single device to pair with four other ESP32s. Furthermore, the setup code is simpler compared to other communication protocols and has a lower latency, which is important for real-time wildfire prediction and detection.
