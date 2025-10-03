@@ -2,7 +2,7 @@
 title: Bill of Materials
 ---
 
-The bill of materials for this project is detailed in the table below. Most of the items were sourced from Digikey, however, the underground box had to be sourced from Amazon as that is the only place which carried that specific product. 
+The bill of materials for this project is detailed in the table below. Most of the items were sourced from Digikey, however, the underground box had to be sourced from Amazon as that is the only place which carried that specific product. It does not come with a datasheet, but it is also just a box.  
 
 | Part Name/Description                                                                        | Unit Quantity | Unit Cost | Manufacturer                    | Manufacturer Part #         | Vendor             |  Total Cost  | Order Total |
 |----------------------------------------------------------------------------------------------|---------------|-----------|---------------------------------|-----------------------------|--------------------|--------------|-------------|
