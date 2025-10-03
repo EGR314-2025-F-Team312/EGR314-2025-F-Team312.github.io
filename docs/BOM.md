@@ -6,7 +6,7 @@ The bill of materials for this project is detailed in the table below. Most of t
 
 | Part Name/Description                                                                        | Unit Quantity | Unit Cost | Manufacturer                    | Manufacturer Part #         | Vendor             |  Total Cost  | Order Total |
 |----------------------------------------------------------------------------------------------|---------------|-----------|---------------------------------|-----------------------------|--------------------|--------------|-------------|
-| IC REG BUCK 5V 3A TO263                                                                      | 4             | $6.97     | Texas Instruments               | LM2596S-(5.0/3.3V)/NOPB     | Digikey            |  $27.88      |  $299.55    |
+| IC REG BUCK 3V 3A TO263                                                                      | 4             | $3.32     | Texas Instruments               | LM2596S-(3.3V)/NOPB         | Digikey            |  $13.28      |  $284.95    |
 | FIXED IND 33UH 4.1A 92 MOHM SMD                                                              | 5             | $0.80     | Sumida America Components Inc.  | 104CDMCCDS-330MC            | Digikey            |  $4.00       |             |
 | Diode 30 V 5A Surface Mount SMC                                                              | 5             | $0.61     | Diodes Incorporated             | B530C-13-F                  | Digikey            |  $3.05       |             |
 | 680 µF Molded Tantalum Polymer Capacitor 6.3 V 2917 (7343 Metric) 18mOhm @ 100kHz            | 5             | $2.90     | Panasonic Electronic Components | 6TPE680MI                   | Digikey            |  $14.50      |             |
