@@ -6,6 +6,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://embedded-systems-design.github.io/template_report/BOM/</loc>
+         <lastmod>2025-10-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://embedded-systems-design.github.io/template_report/BlockDiag/</loc>
          <lastmod>2025-10-03</lastmod>
          <changefreq>daily</changefreq>
@@ -36,6 +41,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://embedded-systems-design.github.io/template_report/team-schematic/</loc>
+         <lastmod>2025-10-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://embedded-systems-design.github.io/template_report/teamorg/</loc>
          <lastmod>2025-10-03</lastmod>
          <changefreq>daily</changefreq>
@@ -47,11 +57,6 @@
     </url>
     <url>
          <loc>https://embedded-systems-design.github.io/template_report/appendix/01_subpage/</loc>
-         <lastmod>2025-10-03</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://embedded-systems-design.github.io/template_report/bom/</loc>
          <lastmod>2025-10-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
