@@ -206,7 +206,7 @@ title: Component Selection
 
     ![](casing_1.png)
 
-    * $21.99/each
+    * $49.99/each
     * [Product Link](https://www.amazon.com/Gratury-Waterproof-Enclosure-Electrical-370%C3%97270%C3%97150mm/dp/B08281V2RL/ref=asc_df_B0BFPXDN8M?tag=bingshoppinga-20&linkCode=df0&hvadid=80333201323789&hvnetw=o&hvqmt=e&hvbmt=be&hvdev=c&hvlocint=&hvlocphy=77827&hvtargid=pla-4583932719993871&th=1)
 
     | Pros                                                              | Cons                                 |
