@@ -243,7 +243,7 @@ title: Component Selection
 
 **Choice:** High-grade ABS 
 
-**Rationale:** The high-grade ABS will be the best material and composition as it is waterproof to help with groundwater. Furthermore, it already has a PCB mounting method and it is easy to drill into to add our external sensors. Some people would argue that this is not the best option because it is not fireproof. This problem is solved by burying the box at least 1 foot underground. This will keep our electronics safe in the event of a wildfire. It is also the cheapest option.
+**Rationale:** The high-grade ABS will be the best material and composition as it is waterproof to help with groundwater. Furthermore, it already has a PCB mounting method and it is easy to drill into to add our external sensors. Some people would argue that this is not the best option because it is not fireproof. This problem is solved by burying the box at least 1 foot underground. This will keep our electronics safe in the event of a wildfire.
 
 *Table 6: Inner Casing Temperature Sensor Selection*
 
@@ -386,4 +386,4 @@ title: Component Selection
 
 **Choice:** ESP-NOW 
 
-**Rationale:** The best choice for wireless communication is ESP-NOW. Although it can only pair with up to 20 Espressif devices, our network topology only requires a single device to pair with four other ESP32s. Furthermore, the setup code is simpler compared to other communication protocols and has a lower latency, which is important for real-time wildfire prediction and detection.
+**Rationale:** The best choice for wireless communication is ESP-NOW. Although it can only pair with up to 20 Espressif devices, our network topology only requires a single device to pair with four other ESP32s. Furthermore, the setup code is simpler compared to other communication protocols and has a lower latency, which is important for real-time wildfire prediction and detection. ESP-NOW can be set up to support a multi-hop network, which is required for our product. However, if this proves to be too difficult, the next best choice would be ESP-MESH. 
