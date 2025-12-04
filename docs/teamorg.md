@@ -28,18 +28,18 @@ Team goals were determined through discussion, in which the common goals were hi
 
 - Create a product that does not interfere with the environment, ecosystem, or any local, state, and federal rules and regulations
 
-These goals were determined by the information presented at the stakeholder interview, and was further refined during discussions in class and in team meetings. As the stakeholder conducts only a reactive approach to fighting wildfires, Team [name TBD] is focused on developing a proactive approach. In this way, the stakeholder can predict potential wildfire spots before they happen, thereby increasing their wildfire detection efficiency.  
+These goals were determined by the information presented at the stakeholder interview, and was further refined during discussions in class and in team meetings. As the stakeholder conducts only a reactive approach to fighting wildfires, Team Embermen is focused on developing a proactive approach. In this way, the stakeholder can predict potential wildfire spots before they happen, thereby increasing their wildfire detection efficiency.  
 
-These goals will help Team [name TBD] in academia and in industry, as it further develops technical, project management, and teammwork skills, all of which are important in the work force and future academic pursuits. 
+These goals will help Team Embermen in academia and in industry, as it further develops technical, project management, and teammwork skills, all of which are important in the work force and future academic pursuits. 
 
 ## Team Charter
 
 The team charter is a summary statement of the project goals, which was determined after discussion with the stakeholders, professors & TA's, and internal team discussions.
 
-Team [name TBD] will design and build a cost-effective mini weather station network for the Arizona Department of Forestry and Wildfire Management. The system will consist of at least two wireless, sensor-equipped stations integrated with a central control panel to identify wildfire-susceptible areas and support proactive suppression. Operating for at least three months on a $300 budget, the product will integrate at least five subsystems, withstand extreme conditions (1500°F, 120 mph winds), and remain environmentally compliant while blending into natural surroundings.
+Team Embermen will design and build a cost-effective mini weather station network for the Arizona Department of Forestry and Wildfire Management. The system will consist of at least two wireless, sensor-equipped stations integrated with a central control panel to identify wildfire-susceptible areas and support proactive suppression. Operating for at least three months on a $300 budget, the product will integrate at least five subsystems, withstand extreme conditions (1500°F, 120 mph winds), and remain environmentally compliant while blending into natural surroundings.
 
 ## Product Mission Statement
 
-The product mission statement details the purpose and direction of Project [name TBD], which was determined through discussion with the stakeholders, professors & TA's, and multiple internal team discussions. 
+The product mission statement details the purpose and direction of Project Firesight, which was determined through discussion with the stakeholders, professors & TA's, and multiple internal team discussions. 
 
-The mission of Project [name TBD] is to design, build, debug, and test a wireless weather station network for the State of Arizona's Department of Forestry and Wildfire Management, with the purpose of predicting susceptible wildfire areas to proactively improve wildfire detection & suppression, thereby decreasing wildfire suppression time.
+The mission of Project Firesight is to design, build, debug, and test a wireless weather station network for the State of Arizona's Department of Forestry and Wildfire Management, with the purpose of predicting susceptible wildfire areas to proactively improve wildfire detection & suppression, thereby decreasing wildfire suppression time.
