@@ -46,7 +46,7 @@ The final design concept remained centered around a wireless weather station net
 
 ## HMI Screen
 
-The HMI screen was not included due to budget and time constraints. The purpose of the HMI screen during intial concept generation was to adjust the threshold values for each environmental variable, as different seasons of the year could change the conditions that create a wildfire. The HMI screen that fit within our project's deadline was the Nextion HMI Screen, which costs around $80 if bought from Digikey. All critical subsystems and supporting items created a project cost of approximately $280. Thus, adding the HMI screen would put the project over budget. 
+The HMI screen was not included due to budget and time constraints. The purpose of the HMI screen during intial concept generation was to adjust the threshold values for each environmental variable, as different seasons of the year could change the conditions that create a wildfire. The HMI screen that fit within our project's deadline was the Nextion HMI Screen, which costs around 80 dollars if bought from Digikey. All critical subsystems and supporting items created a project cost of approximately 280 dollars. Thus, adding the HMI screen would put the project over budget. 
 
 ## Solar Panels
 
