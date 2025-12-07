@@ -10,25 +10,11 @@ Thus, Project Firesight's purpose is to create a wireless weather station networ
 
 The audience for our project is both in academia and in industry. These stakeholders are our professor, Dr. Dajiang Suo, our teaching assistants, the State of Arizona’s Department of Forestry and Fire Management, local fire departments, local, state, and/or federal environmental agencies, environmental or wildlife research groups, and local residential communities. Our stakeholders can even extend to Arizona’s state government, as extreme wildfires can produce a domino effect of consequences that affect Arizona as a whole. 
 
-## Idea Generation - Sort, Rank, Recombine, Group
+## Idea Generation & Initial Concept
 
-The brainstorming process generated a total of 120 ideas. During the process, no idea was dismissed in order to encourage creative thinking. The ideas generated ranged from the type of sensors to use, how to use them, how the system will function, etc. The figure below depicts all of the ideas generated during this process. 
+The initial design concept's decision making process was through generating as much ideas as possible, organizing those generated ideas into grouped themes, ranking those grouped ideas based on feasibility and stakeholder needs, and finally, combining the highest ranked ideas. Please see the Appendix for a detailed description of the initial design concept's decision making process. 
 
-![alt text](generated_ideas.png)
-
-Afterwards, the generated ideas were sorted based on similar themes. The themes chosen were Life Cycle, Sensors/Data, Structure/Ergonomics, Communication, Prevention, and Response. The figure below depicts all of the ideas after being sorted. The 'Life Cycle' grouping is not shown due to issues with image size.
-
-![alt text](sorted_ideas.png)
-
-The ideas were then ranked based on how feasible they are, which was determined by budget constraints, time constraints, and if they satisfied the stakeholder needs (durability, survivability, and wireless real-time data). The figure below depicts the ranked ideas, which have a 'fire' emoji on them. 
-
-![alt text](ranked_ideas.png)
-
-Afterwards, the ranked ideas were improved upon, recombined, and finally grouped into our final product: a wireless weather station with a LED & HMI control panel. The figure below depicts the final grouping. 
-
-![alt text](grouped_ideas.png)
-
-Finally, a concept prototype was built out of everyday materials to envision Project Firesight. The figure below depicts the concept sketch/prototype. 
+A concept sketch was built out of everyday materials to envision Project Firesight. The figure below depicts the initial concept sketch.
 
 ![alt text](concept_sketch.png)
 
@@ -38,19 +24,22 @@ The wireless communication significantly reduces the amount of physical interact
     
 The real-time data provides the opportunity for wildfire-related organizations to develop a proactive response, which increases the efficiency by which wildfire organizations can complete their duties. 
     
-Furthermore, the mechanical protection, underground features, and durability of the product ensures that it will survive in extreme weather conditions, which satisfies the need for a reliable & durable product. 
+Furthermore, the mechanical protection, underground safety feature, and durability of the product ensures that it will survive in extreme weather conditions, which satisfies the need for a reliable & durable product. 
 
-The workload for Project Firesight was divided into five subsystems that will be distributed evenly amongst the five teammates. These five subsystems are, Sensors, Mechanical Casing/Structures, ESP-NOW Communication, Power Supply, and Control Panel. It was foreseen that the sensor subsystem will require more attention, so the team decided to combine the sensor and power supply to a two-person team. The sensors will be communicating with the main control panel continuously. This panel will show when certain thresholds are met and have an indicator to when a certain area becomes a threat for a wildfire. The control panel will be a grid of LED lights that correspond to the type of sensor on the columns and the area that the sensor is in on the rows. The last LED in each row will indicate if an area is deemed wildfire-susceptibile. 
+The control panel will show when certain environmental thresholds are met and have an indicator to when a certain area becomes a threat for a wildfire. The control panel will be a grid of LED lights that correspond to the type of measured environmental variable on the columns, and the rows represent each weather station. The last LED in each row will indicate if an area is deemed wildfire-susceptibile. Please see the Appendix for information on how the subsystems were split between the team members. 
 
-Our product will include labels on the control panel for each LED and each row, which indicate their function. The ‘wildfire susceptible’ LEDs (which indicate if the area the station is in is wildfire susceptible) will “breathe” using PWM at varying speeds to indicate the intensity of the susceptibility. As a stretch goal, our product could include a buzzer for added intensity indication if time permits.
+Our product will include labels on the control panel for each LED and each row, which indicate their function. The ‘wildfire susceptible’ LEDs (which indicate if the area the station is in is wildfire susceptible) will “breathe” using PWM. As a stretch goal, our product could increase the intensity by which the LED breathes for added indication. 
 
-Project Firesight will include an HMI screen to interface with the control panel. This HMI screen would adjust the sensor threshold value, as weather variables and conditions to produce a wildfire can vary with time. 
+Durability, safety, and comfort will be very important to the end product because the installment of our modules is in remote and hard to reach areas, which is not something anyone wants to install twice. Durability during any sort of weather these areas can throw at us is of utmost importance, as no data can be transmitted if the station is incapacitated. Project Firesight will make sure wildlife does not interact with the product, as a curious animal may be able to destroy the product or hurt itself in the process. Most importantly, the product must not be harmful to any ecosystems that it is within. 
 
-Durability, safety, and comfort will be very important to the end product because the installment of our modules is in remote and hard to reach areas, which is not something anyone wants to do twice. Durability during any sort of weather these areas can throw at us is of utmost importance, as no data can be transmitted if the station is incapacitated. Project Firesight will make sure wildlife does not interact with the product, as a curious animal may be able to destroy the product. Most importantly, the product must not be harmful to any ecosystems that it is within. 
-
-Project Firesight will need to be installed manually, and reaching the remote forest can be a challenge. In addition, the modules will have to be calibrated to each other and confirm that all the modules are functioning together and communicating to the main control panel. To conduct this effectively, an instruction and maintenance manual will be provided that will cover the specifics.
+The modules will have to be calibrated to each other and confirm that all the modules are functioning together and communicating to the main control panel. To conduct this effectively, an instruction and maintenance manual will be provided that will cover the specifics.
 
 Below is a YouTube presentation on Project Firesight's idea generation process:
 
+**_Note_**: The pictures utilized in the YouTube presentation are AI generated. 
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UdYc81qnbb8?si=eoMyjqz6b4XxD1y1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## Final Design Concept 
+
 

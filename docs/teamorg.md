@@ -14,11 +14,11 @@ Team goals were determined through discussion, in which the common goals were hi
 
 - Create at least **two mini weather stations** that successfully send data back to the control panel. 
 
-- Accurately depict a wildfire susceptible area by using at least **three different sensors**
+- Accurately depict a wildfire susceptible area by measuring at least **three different** wildfire causing variables
 
 - Create a product that operates and runs successfully for at least **three months** while staying under the $300 budget
 
-- Successfully integrate at least **five subsystems** with the main control panel
+- Successfully integrate at least **four subsystems** together
 
 - Create a product that can withstand temperatures up to **1500 degrees Fahrenheit**
 
@@ -34,9 +34,9 @@ These goals will help Team Embermen in academia and in industry, as it further d
 
 ## Team Charter
 
-The team charter is a summary statement of the project goals, which was determined after discussion with the stakeholders, professors & TA's, and internal team discussions.
+The team charter is a summary statement of the project goals, which was determined after discussion with the stakeholders, professor & TA's, and internal team discussions.
 
-Team Embermen will design and build a cost-effective mini weather station network for the Arizona Department of Forestry and Wildfire Management. The system will consist of at least two wireless, sensor-equipped stations integrated with a central control panel to identify wildfire-susceptible areas and support proactive suppression. Operating for at least three months on a $300 budget, the product will integrate at least five subsystems, withstand extreme conditions (1500°F, 120 mph winds), and remain environmentally compliant while blending into natural surroundings.
+Team Embermen will design and build a cost-effective mini weather station network for the Arizona Department of Forestry and Wildfire Management. The system will consist of at least two wireless, sensor-equipped stations integrated with a central control panel to identify wildfire-susceptible areas and support proactive suppression. Operating for at least three months on a $300 budget, the product will integrate at least four subsystems, withstand extreme conditions (1500°F, 120 mph winds), and remain environmentally compliant while blending into natural surroundings.
 
 ## Product Mission Statement
 
