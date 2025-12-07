@@ -1,5 +1,5 @@
 ---
-title: Team Organization
+title: Team Organization Appendix
 ---
 
 ## Team Goals ##
@@ -15,11 +15,11 @@ title: Team Organization
 
 - Create at least **two mini weather stations** that successfully send data back to the control panel. 
 
-- Accurately depict a wildfire susceptible area by using at least **three different sensors**
+- Accurately depict a wildfire susceptible area by measuring at least **three different** wildfire causing variables
 
 - Create a product that operates and runs successfully for at least **three months** while staying under the $300 budget
 
-- Successfully integrate at least **five subsystems** with the main control panel
+- Successfully integrate at least **four subsystems** with the main control panel
 
 - Create a product that can withstand temperatures up to **1500 degrees Fahrenheit**
 
