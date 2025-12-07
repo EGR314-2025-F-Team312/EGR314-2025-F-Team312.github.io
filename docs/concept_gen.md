@@ -16,6 +16,8 @@ The initial design concept's decision making process was through generating as m
 
 A concept sketch was built out of everyday materials to envision Project Firesight. The figure below depicts the initial concept sketch.
 
+*Figure 1: Initial Concept Sketch*
+
 ![alt text](concept_sketch.png)
 
 The features in our concept sketch satisfy the needs for wildfire response organizations by providing real-time data through wireless communication and the incorporation of a durable mechanical casing. 
@@ -58,7 +60,9 @@ The antenna was not included due to budget constraints. Furthermore, as this is 
 
 ## Modified Underground Safety Feature
 
-The underground safety feature was modified to incorporate an electrical component based on feedback from the professor and TA's. The underground safety feature now includes a temperature sensor to measure the temperature INSIDE the weather station enclosure, a DC motor & motor driver, and a small 3D printed pin that will be pulled by the motor. The weather station PCB will still sit in its enclosure, but the enclosure will now be placed between sliders. The weather station's sliders will be fully extended; The motor pin will be mounted such that it "locks" the sliders in their fully extended position. Half of the length of the sliders will be in an underground hole, the other half will be above the hole to allow the environmental sensor to measure accurate data. Once the INTERNAL temperature sensor measures a temperature that could destroy the weather station's electronics, the DC motor will pull the motor pin, which will drop the weather station enclosure into the hole. This will ensure that the weather station's electronics will be safe if a wildfire is active in the weather station's area.  
+The underground safety feature was modified to incorporate an electrical component based on feedback from the professor and TA's. The underground safety feature now includes a temperature sensor to measure the temperature INSIDE the weather station enclosure, a DC motor & motor driver, and a small 3D printed pin that will be pulled by the motor. The weather station PCB will still sit in its enclosure, but the enclosure will now be placed between sliders. The weather station's sliders will be fully extended; The motor pin will be mounted such that it "locks" the sliders in their fully extended position. Half of the length of the sliders will be in an underground hole, the other half will be above the hole to allow the environmental sensor to measure accurate data. Once the INTERNAL temperature sensor measures a temperature that could destroy the weather station's electronics, the DC motor will pull the motor pin, which will drop the weather station enclosure into the hole. This will ensure that the weather station's electronics will be safe if a wildfire is active in the weather station's area. Below is a concept sketch of the final concept design. 
 
+*Figure 2: Final Concept Sketch*
 
+![Final Concept Sketch](final_concept.jpg)
 
