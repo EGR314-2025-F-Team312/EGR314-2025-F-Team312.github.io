@@ -4,7 +4,7 @@ title: Appendix
 
 ## Subsystem Split
 
-The workload for Project Firesight was divided into four subsystems that will be distributed evenly amongst the four teammates. These four subsystems are Mechanical Casing/Structures (including the underground feature), ESP-NOW Communication & Microcontroller, Power Supply, and Control Panel. The sensor subsystem was removed due to the responsible teammate withdrawing from the course. As such, an already built BME280 breakout board was used in replacement. The weather stations will be communicating with the main control panel continuously. 
+The workload for Project Firesight was divided into four subsystems that will be distributed evenly amongst the four teammates. These four subsystems are Mechanical Casing/Structures (including the underground feature) & Microcontroller, ESP-NOW Communication, Power Supply, and Control Panel. The sensor subsystem was removed due to the responsible teammate withdrawing from the course. As such, an already built BME280 breakout board was used in replacement. The weather stations will be communicating with the main control panel continuously. 
 
 ## Idea Generation - Sort, Rank, Recombine, Group
 
