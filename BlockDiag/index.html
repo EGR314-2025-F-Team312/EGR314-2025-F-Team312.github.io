@@ -26,7 +26,7 @@
 
     
       
-        <title>Block Diagram - EGR314 Report Template</title>
+        <title>Block Diagram &amp; Communication Sequence Diagram - EGR314 Report Template</title>
       
     
     
@@ -89,6 +89,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#decision-making-process-product-requirements" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -120,7 +125,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Block Diagram
+              Block Diagram &amp; Communication Sequence Diagram
             
           </span>
         </div>
@@ -236,7 +241,7 @@
   
     
   
-  Block Diagram
+  Block Diagram &amp; Communication Sequence Diagram
 
       </a>
     </li>
@@ -550,15 +555,52 @@
       
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Block Diagram &amp; Communication Sequence Diagram
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
-    Block Diagram
+    Block Diagram &amp; Communication Sequence Diagram
   </span>
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#decision-making-process-product-requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Decision Making Process &amp; Product Requirements
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -934,6 +976,23 @@
   
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#decision-making-process-product-requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Decision Making Process &amp; Product Requirements
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -955,10 +1014,13 @@
   
 
 
-  <h1>Block Diagram</h1>
+  <h1>Block Diagram &amp; Communication Sequence Diagram</h1>
 
-<p>This semster we are challenged with the task to be proactive instead of reactive to wildfires. We came up with the idea to plant modules housing many inviormential sensors to monitor weather conditions. This is our teams Bock Diagram for our concept. 
-<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/44370ea3-8682-4d24-b353-8e5e6c17f484" data-desc-position="bottom"><img width="746" height="743" alt="image" src="https://github.com/user-attachments/assets/44370ea3-8682-4d24-b353-8e5e6c17f484"></a></p>
+<p>The block diagram below details how the subsystems within Project Firesight interact with each other. The power subsystem takes in power from the battery and output 3.3 volts to all other subsytems for both the weather station and control panel. The internal temperature sensor, and the external environment sensor communicate with the microcontroller chip through I2C. The environmental sensor data (temperature, pressure, and relative humidity) is relayed to the control panel's microcontroller through the ESP-NOW communication protocol. The second weather station block (shown on the top right) relays it's environmental information to the control panel through the first weather station block using ESP-NOW. The control panel receives this data, compares it to the threshold values, and lights up LEDs correspondingly. </p>
+<p><em>Figure 1: Project Firesight Block Diagram</em></p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/44370ea3-8682-4d24-b353-8e5e6c17f484" data-desc-position="bottom"><img width="746" height="743" alt="image" src="https://github.com/user-attachments/assets/44370ea3-8682-4d24-b353-8e5e6c17f484"></a></p>
+<h2 id="decision-making-process-product-requirements">Decision Making Process &amp; Product Requirements</h2>
+<p>The decision making process for structuring the block diagram above revolved around simplicity and the examples given in class. The block diagram meets our product requirements as it measures three different types of environmental data from multiple stations, relays that data back to the control panel via ESP-NOW wireless communication, and the control panel actuates corresponding LEDs based on the data received. By doing so, the stakeholders receive real-time environmental data and information on areas that could produce a wildfire, which allows for proactiveness in wildfire suppression. All boards receive stable power, which is critical in allowing the project to function. Lastly, our block diagram showcases four subsystems working together (power, control panel LED actuators, wireless communication, microcontroller), which satisfies the product requirement of four subsystems working together. </p>
 
 
 
