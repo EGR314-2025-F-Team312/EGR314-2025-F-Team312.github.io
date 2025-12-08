@@ -654,9 +654,10 @@
     </span>
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
+    <nav class="md-nav" aria-label="Final Design Concept">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#hmi-screen" class="md-nav__link">
     <span class="md-ellipsis">
       HMI Screen
@@ -664,8 +665,8 @@
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#solar-panels" class="md-nav__link">
     <span class="md-ellipsis">
       Solar Panels
@@ -673,8 +674,8 @@
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#antenna-antenna-wiring-conduit" class="md-nav__link">
     <span class="md-ellipsis">
       Antenna &amp; Antenna Wiring Conduit
@@ -682,13 +683,18 @@
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#modified-underground-safety-feature" class="md-nav__link">
     <span class="md-ellipsis">
       Modified Underground Safety Feature
     </span>
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1061,9 +1067,10 @@
     </span>
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
+    <nav class="md-nav" aria-label="Final Design Concept">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#hmi-screen" class="md-nav__link">
     <span class="md-ellipsis">
       HMI Screen
@@ -1071,8 +1078,8 @@
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#solar-panels" class="md-nav__link">
     <span class="md-ellipsis">
       Solar Panels
@@ -1080,8 +1087,8 @@
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#antenna-antenna-wiring-conduit" class="md-nav__link">
     <span class="md-ellipsis">
       Antenna &amp; Antenna Wiring Conduit
@@ -1089,13 +1096,18 @@
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#modified-underground-safety-feature" class="md-nav__link">
     <span class="md-ellipsis">
       Modified Underground Safety Feature
     </span>
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1147,13 +1159,13 @@
 
 <h2 id="final-design-concept">Final Design Concept</h2>
 <p>The final design concept remained centered around a wireless weather station network transmitting environmental data to a central control panel. However, the final design concept did not include the HMI screen, solar panels, antenna, and antenna wiring conduit. The final concept also modified the underground feature. Below is a description of why each component was not included in the final design, and how the underground feature was modified. </p>
-<h2 id="hmi-screen">HMI Screen</h2>
+<h3 id="hmi-screen">HMI Screen</h3>
 <p>The HMI screen was not included due to budget and time constraints. The purpose of the HMI screen during intial concept generation was to adjust the threshold values for each environmental variable, as different seasons of the year could change the conditions that create a wildfire. The HMI screen that fit within our project's deadline was the Nextion HMI Screen, which costs around 80 dollars if bought from Digikey. All critical subsystems and supporting items created a project cost of approximately 280 dollars. Thus, adding the HMI screen would put the project over budget. </p>
-<h2 id="solar-panels">Solar Panels</h2>
+<h3 id="solar-panels">Solar Panels</h3>
 <p>The solar panels were not included due to budget constraints. The lithium batteries utilized had to be at least 7.4 volts due to the voltage input requirements of our voltage regulator. The purpose of the solar panels was to charge the lithium ion batteries, and therefore decrease the amount of maintenance on the weather stations. To incorporate solar panels in this manner, a solar charge controller board must be utilized to ensure the batteries are not overcharged. However, it was incredibly difficult finding a solar charge controller board that could take in 7.4 volts while also remaining within budget.</p>
-<h2 id="antenna-antenna-wiring-conduit">Antenna &amp; Antenna Wiring Conduit</h2>
+<h3 id="antenna-antenna-wiring-conduit">Antenna &amp; Antenna Wiring Conduit</h3>
 <p>The antenna was not included due to budget constraints. Furthermore, as this is a school project and not a full-fledged product, the team decided that the built in antenna on the microcontroller chip was sufficient. The wiring conduit is for the antenna and environmental sensors; the wiring conduit was removed as well since the antenna is no longer included, and the environmental sensors do not need external conduit due to modifications on the underground safety feature. </p>
-<h2 id="modified-underground-safety-feature">Modified Underground Safety Feature</h2>
+<h3 id="modified-underground-safety-feature">Modified Underground Safety Feature</h3>
 <p>The underground safety feature was modified to incorporate an electrical component based on feedback from the professor and TA's. The underground safety feature now includes a temperature sensor to measure the temperature INSIDE the weather station enclosure, a DC motor &amp; motor driver, and a small 3D printed pin that will be pulled by the motor. The weather station PCB will still sit in its enclosure, but the enclosure will now be placed between sliders. The weather station's sliders will be fully extended; The motor pin will be mounted such that it "locks" the sliders in their fully extended position. Half of the length of the sliders will be in an underground hole, the other half will be above the hole to allow the environmental sensor to measure accurate data. Once the INTERNAL temperature sensor measures a temperature that could destroy the weather station's electronics, the DC motor will pull the motor pin, which will drop the weather station enclosure into the hole. This will ensure that the weather station's electronics will be safe if a wildfire is active in the weather station's area. Below is a concept sketch of the final concept design. </p>
 <p><em>Figure 2: Final Concept Sketch</em></p>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../final_concept.jpg" data-desc-position="bottom"><img alt="Final Concept Sketch" src="../final_concept.jpg"></a></p>
