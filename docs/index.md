@@ -34,6 +34,22 @@ Project Firesight is a wireless weather station network that sends real-time env
 
 **_Note_**: The weather station PCB is the green PCB. During integration, the microcontroller on the weather station PCB fried, so the blue PCB's microcontroller was used. 
 
+## Summary Table of Major Components 
+
+| Part Name/Description                                                  | Unit Quantity | Unit Cost | Manufacturer         | Manufacturer Part #         | Vendor       |  Total Cost  | Order Total |
+|------------------------------------------------------------------------|---------------|-----------|----------------------|-----------------------------|--------------|--------------|-------------|
+| IC REG BUCK 3V 3A TO263                                                | 4             | $3.32     | Texas Instruments    | LM2596S-(3.3V)/NOPB         | Digikey      |  $13.28      |  $174.48    |
+| 9V 12 W AC/DC External Wall Mount (Class II) Adapter Fixed Blade Input | 1             | $6.23     | GlobTek, Inc.        | 1939-WR9HD1333CCP-F(R6B)-ND | Digikey      |  $6.23       |             |
+| BME 280 Breakout Board                                                 | 2             | $8.99     | HiLetgo              | GY-BME280-3.3               | Amazon       |  $17.98      |             |
+| LED RED DIFFUSED GULL WING SMD                                         | 5             | $2.01     | Broadcom Limited     | HLMP-Q150-F0011             | Digikey      |  $10.05      |             |
+| LED BLUE ROUND 4SMD                                                    | 25            | $1.20     | Broadcom Limited     | ALMD-CB1E-VW002             | Digikey      |  $30.00      |             |
+| Junction box enclosure.  5.9"D x 10.6"W x 14.6"H                       | 1             | $49.99    | Gratury              | G                           | Amazon       |  $49.99      |             |
+| SENSOR DIGITAL -40C-125C SOT23-5                                       | 5             | $1.15     | Microchip Technology | TC74A4-3.3VCTTR             | Digikey      |  $5.75       |             |
+| ESP32 Microcontroller                                                  | 5             | $5.06     | Espressif Systems    | ESP32-S3-WROOM-1-N4         | Digikey      |  $25.30      |             |
+| ESP32 Snap Programmer                                                  | 3             | $5.30     | M5 Stack             | S006                        | Electromaker |  $15.90      |
+
+**_Note_**: The motor driver and DC motor were not included in the final prototype as the motor driver was unable to be properly soldered with the surface mount equipment provided at Peralta Lab. The OUT+ and OUT- pins that drive the motor would consistently short with the GND pin on the driver due to how small the driver and the pads were.
+
 ## Page Links
 
 [Team Organization](./teamorg.md)

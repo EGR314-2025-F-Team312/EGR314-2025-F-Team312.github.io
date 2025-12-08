@@ -1,21 +1,19 @@
 ---
-title: Bill of Materials
+title: Final Bill of Materials
 ---
 
-The bill of materials for this project is detailed in the table below. Most of the items were sourced from Digikey, however, the underground box had to be sourced from Amazon as that is the only place which carried that specific product. It does not come with a datasheet, but it is also just a box.  
+The final bill of materials for this project is detailed in the table below. Most of the items were sourced from Digikey, however, some were sourced from Amazon. For example, the underground box had to be sourced from Amazon as that is the only place which carried that specific product. It does not come with a datasheet, but it is also just a box.  
 
 | Part Name/Description                                                                        | Unit Quantity | Unit Cost | Manufacturer                    | Manufacturer Part #         | Vendor             |  Total Cost  | Order Total |
 |----------------------------------------------------------------------------------------------|---------------|-----------|---------------------------------|-----------------------------|--------------------|--------------|-------------|
-| IC REG BUCK 3V 3A TO263                                                                      | 4             | $3.32     | Texas Instruments               | LM2596S-(3.3V)/NOPB         | Digikey            |  $13.28      |  $284.95    |
+| IC REG BUCK 3V 3A TO263                                                                      | 4             | $3.32     | Texas Instruments               | LM2596S-(3.3V)/NOPB         | Digikey            |  $13.28      |  $292.91    |
 | FIXED IND 33UH 4.1A 92 MOHM SMD                                                              | 5             | $0.80     | Sumida America Components Inc.  | 104CDMCCDS-330MC            | Digikey            |  $4.00       |             |
 | Diode 30 V 5A Surface Mount SMC                                                              | 5             | $0.61     | Diodes Incorporated             | B530C-13-F                  | Digikey            |  $3.05       |             |
 | 680 µF Molded Tantalum Polymer Capacitor 6.3 V 2917 (7343 Metric) 18mOhm @ 100kHz            | 5             | $2.90     | Panasonic Electronic Components | 6TPE680MI                   | Digikey            |  $14.50      |             |
 | 220 µF ±20% 6.3V Ceramic Capacitor X5R 1206 (3216 Metric)                                    | 5             | $1.22     | Murata Electronics              | GRM31CR60J227ME11L          | Digikey            |  $6.10       |             |
 | 9V 12 W AC/DC External Wall Mount (Class II) Adapter Fixed Blade Input                       | 1             | $6.23     | GlobTek, Inc.                   | 1939-WR9HD1333CCP-F(R6B)-ND | Digikey            |  $6.23       |             |
 | Power Barrel Connector Jack 2.10mm ID (0.083"), 5.50mm OD (0.217") Through Hole, Right Angle | 5             | $1.14     | Same Sky (Formerly CUI Devices) | CP-202AH-ND                 | Digikey            |  $5.70       |             |
-| 2 A 250 V Fuse Cartridge, Glass Requires Holder 5mm x 20mm                                   | 5             | $0.76     | SCHURTER Inc.                   | 486-1219-ND                 | Digikey            |  $3.80       |             |
-| FUSEHOLDER BLOCKS - PCB - CLIP C                                                             | 5             | $0.61     | Würth Elektronik                | 696108003002                | Digikey            |  $3.05       |             |
-| BME 280- Humidity, Temperature, and Pressure sensor                                          | 4             | $4.03     | Bosch Sensortec                 | BME280                      | Digikey            |  $16.12      |             |
+| BME 280 Breakout Board                                                                       | 2             | $8.99     | HiLetgo                         | GY-BME280-3.3               | Amazon             |  $17.98      |             |
 | Multilayer Ceramic Capacitors MLCC - SMD/SMT 100V .1uF X7R 0805 1 0%                         | 20            | $0.13     | Kyocera AVX                     | KGM21AR72A104KU             | Mouser Electronics |  $2.60       |             |
 | RES 4.7K OHM 5% 1/16W 0402                                                                   | 20            | $0.10     | YAGEO                           | RC0402JR-074K7L             | Digikey            |  $2.00       |             |
 | LED RED DIFFUSED GULL WING SMD                                                               | 5             | $2.01     | Broadcom Limited                | HLMP-Q150-F0011             | Digikey            |  $10.05      |             |
@@ -32,5 +30,6 @@ The bill of materials for this project is detailed in the table below. Most of t
 | Micro USB port                                                                               | 5             | $1.02     | Kycon, Inc.                     | KMMX-BSMT35S-B30TR          | Digikey            |  $5.10       |             |
 | 22 uF Ceramic Capacitor                                                                      | 25            | $0.13     | Samsung Electro-Mechanics       | CL21A226KQCLRNC             | Digikey            |  $3.25       |             |
 | Push button                                                                                  | 20            | $0.18     | Same Sky (Formerly CUI Devices) | TS04-66-50-BK-160-SMT       | Digikey            |  $3.60       |             |
-| Female header pins                                                                           | 5             | $2.95     | Adafruit Industries LLC         | 598                         | Digikey            |  $14.75      |             |
-| Male header pins                                                                             | 9             | $0.87     | Würth Elektronik                | 61301611121                 | Digikey            |  $7.83       |
+| Female header pins                                                                           | 4             | $2.95     | Adafruit Industries LLC         | 598                         | Digikey            |  $11.80      |             |
+| Male header pins                                                                             | 9             | $0.87     | Würth Elektronik                | 61301611121                 | Digikey            |  $7.83       |             |
+| ESP32 Snap Programmer                                                                        | 3             | $5.30     | M5 Stack                        | S006                        | Electromaker       |  $15.90      |

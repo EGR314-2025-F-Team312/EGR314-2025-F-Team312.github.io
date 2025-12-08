@@ -387,3 +387,24 @@ title: Component Selection
 **Choice:** ESP-NOW 
 
 **Rationale:** The best choice for wireless communication is ESP-NOW. Although it can only pair with up to 20 Espressif devices, our network topology only requires a single device to pair with four other ESP32s. Furthermore, the setup code is simpler compared to other communication protocols and has a lower latency, which is important for real-time wildfire prediction and detection. ESP-NOW can be set up to support a multi-hop network, which is required for our product. However, if this proves to be too difficult, the next best choice would be ESP-MESH. 
+
+## Summary Table of Major Components 
+
+| Part Name/Description                                                  | Unit Quantity | Unit Cost | Manufacturer      | Manufacturer Part #         | Vendor       |  Total Cost  | Order Total |
+|------------------------------------------------------------------------|---------------|-----------|-------------------|-----------------------------|--------------|--------------|-------------|
+| IC REG BUCK 3V 3A TO263                                                | 4             | $3.32     | Texas Instruments | LM2596S-(3.3V)/NOPB         | Digikey      |  $13.28      |  $168.73    |
+| 9V 12 W AC/DC External Wall Mount (Class II) Adapter Fixed Blade Input | 1             | $6.23     | GlobTek, Inc.     | 1939-WR9HD1333CCP-F(R6B)-ND | Digikey      |  $6.23       |             |
+| BME 280 Breakout Board                                                 | 2             | $8.99     | HiLetgo           | GY-BME280-3.3               | Amazon       |  $17.98      |             |
+| LED RED DIFFUSED GULL WING SMD                                         | 5             | $2.01     | Broadcom Limited  | HLMP-Q150-F0011             | Digikey      |  $10.05      |             |
+| LED BLUE ROUND 4SMD                                                    | 25            | $1.20     | Broadcom Limited  | ALMD-CB1E-VW002             | Digikey      |  $30.00      |             |
+| Junction box enclosure.  5.9"D x 10.6"W x 14.6"H                       | 1             | $49.99    | Gratury           | G                           | Amazon       |  $49.99      |             |
+| ESP32 Microcontroller                                                  | 5             | $5.06     | Espressif Systems | ESP32-S3-WROOM-1-N4         | Digikey      |  $25.30      |             |
+| ESP32 Snap Programmer                                                  | 3             | $5.30     | M5 Stack          | S006                        | Electromaker |  $15.90      |
+
+### Final Component Selection Decision Making Process
+The final components were chosen based on simplicity, cost, available code libraries & tutorials, and how well they fit the product requirements. All of the final components allow for Project Firesight to accomplish it's requirements. The switching voltage regulator provides stable power to the control panel and the weather station, which enables the product to function as intended. The BME 280 breakout board measures real-time environmental data to inform on wildfire susceptible areas. The LEDs are simple, but effective in indicating if an environmental threshold has been met and/or if a wildfire is susceptible in an area, which allows for a proactive approach to wildfire suppresion. The junction box is waterproof and durable, which protects the weather station components from the environment they are in, which is critical in maintaining product functionality. The snap programmer allows for the microcontroller to be programmed and the microcontroller controls the logic of the product, allowing for the transmission of real-time environmental data through ESP-NOW wireless communication. 
+
+### Final Component Selection Feedback 
+The teaching team advised to include an ESP32 Snap Programmer to the project's component list in case the USB programmer does not work. Thus, Electromaker's ESP32 Snap Programmer was added as a major component to Project Firesight. 
+
+**_Note_**: The motor driver, DC motor, and internal temperature sensor were not included in the final prototype as the motor driver was unable to be properly soldered with the surface mount equipment provided at Peralta Lab. The OUT+ and OUT- pins that drive the motor would consistently short with the GND pin on the driver due to how small the driver and the pads were. Thus, the motor and related components are left out of the summary table as they were unused. 
