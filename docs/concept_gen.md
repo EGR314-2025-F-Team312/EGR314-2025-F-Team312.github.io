@@ -46,19 +46,19 @@ Below is a YouTube presentation on Project Firesight's idea generation process:
 
 The final design concept remained centered around a wireless weather station network transmitting environmental data to a central control panel. However, the final design concept did not include the HMI screen, solar panels, antenna, and antenna wiring conduit. The final concept also modified the underground feature. Below is a description of why each component was not included in the final design, and how the underground feature was modified. 
 
-## HMI Screen
+### HMI Screen
 
 The HMI screen was not included due to budget and time constraints. The purpose of the HMI screen during intial concept generation was to adjust the threshold values for each environmental variable, as different seasons of the year could change the conditions that create a wildfire. The HMI screen that fit within our project's deadline was the Nextion HMI Screen, which costs around 80 dollars if bought from Digikey. All critical subsystems and supporting items created a project cost of approximately 280 dollars. Thus, adding the HMI screen would put the project over budget. 
 
-## Solar Panels
+### Solar Panels
 
 The solar panels were not included due to budget constraints. The lithium batteries utilized had to be at least 7.4 volts due to the voltage input requirements of our voltage regulator. The purpose of the solar panels was to charge the lithium ion batteries, and therefore decrease the amount of maintenance on the weather stations. To incorporate solar panels in this manner, a solar charge controller board must be utilized to ensure the batteries are not overcharged. However, it was incredibly difficult finding a solar charge controller board that could take in 7.4 volts while also remaining within budget.
 
-## Antenna & Antenna Wiring Conduit
+### Antenna & Antenna Wiring Conduit
 
 The antenna was not included due to budget constraints. Furthermore, as this is a school project and not a full-fledged product, the team decided that the built in antenna on the microcontroller chip was sufficient. The wiring conduit is for the antenna and environmental sensors; the wiring conduit was removed as well since the antenna is no longer included, and the environmental sensors do not need external conduit due to modifications on the underground safety feature. 
 
-## Modified Underground Safety Feature
+### Modified Underground Safety Feature
 
 The underground safety feature was modified to incorporate an electrical component based on feedback from the professor and TA's. The underground safety feature now includes a temperature sensor to measure the temperature INSIDE the weather station enclosure, a DC motor & motor driver, and a small 3D printed pin that will be pulled by the motor. The weather station PCB will still sit in its enclosure, but the enclosure will now be placed between sliders. The weather station's sliders will be fully extended; The motor pin will be mounted such that it "locks" the sliders in their fully extended position. Half of the length of the sliders will be in an underground hole, the other half will be above the hole to allow the environmental sensor to measure accurate data. Once the INTERNAL temperature sensor measures a temperature that could destroy the weather station's electronics, the DC motor will pull the motor pin, which will drop the weather station enclosure into the hole. This will ensure that the weather station's electronics will be safe if a wildfire is active in the weather station's area. Below is a concept sketch of the final concept design. 
 
