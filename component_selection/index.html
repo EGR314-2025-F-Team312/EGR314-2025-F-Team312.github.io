@@ -222,7 +222,7 @@
   
     
   
-  Bill of Materials
+  Final Bill of Materials
 
       </a>
     </li>
@@ -274,6 +274,23 @@
     
   
   Ideation and Concept Generation
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../esp32-pinout-table/" class="md-tabs__link">
+        
+  
+    
+  
+  ESP32 Pinout Table
 
       </a>
     </li>
@@ -566,7 +583,7 @@
         
   
   <span class="md-ellipsis">
-    Bill of Materials
+    Final Bill of Materials
   </span>
   
 
@@ -627,6 +644,26 @@
   
   <span class="md-ellipsis">
     Ideation and Concept Generation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../esp32-pinout-table/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ESP32 Pinout Table
   </span>
   
 
@@ -863,7 +900,7 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_13" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_14" checked>
         
           
           
@@ -880,8 +917,8 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_13_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_13">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_14_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_14">
             <span class="md-nav__icon md-icon"></span>
             Component selection
           </label>
@@ -1163,6 +1200,39 @@
   <a href="#wireless-communication" class="md-nav__link">
     <span class="md-ellipsis">
       Wireless Communication
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#summary-table-of-major-components" class="md-nav__link">
+    <span class="md-ellipsis">
+      Summary Table of Major Components
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Summary Table of Major Components">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#final-component-selection-decision-making-process" class="md-nav__link">
+    <span class="md-ellipsis">
+      Final Component Selection Decision Making Process
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#final-component-selection-feedback" class="md-nav__link">
+    <span class="md-ellipsis">
+      Final Component Selection Feedback
     </span>
   </a>
   
@@ -1971,6 +2041,108 @@
 </ol>
 <p><strong>Choice:</strong> ESP-NOW </p>
 <p><strong>Rationale:</strong> The best choice for wireless communication is ESP-NOW. Although it can only pair with up to 20 Espressif devices, our network topology only requires a single device to pair with four other ESP32s. Furthermore, the setup code is simpler compared to other communication protocols and has a lower latency, which is important for real-time wildfire prediction and detection. ESP-NOW can be set up to support a multi-hop network, which is required for our product. However, if this proves to be too difficult, the next best choice would be ESP-MESH. </p>
+<h2 id="summary-table-of-major-components">Summary Table of Major Components</h2>
+<table>
+<thead>
+<tr>
+<th>Part Name/Description</th>
+<th>Unit Quantity</th>
+<th>Unit Cost</th>
+<th>Manufacturer</th>
+<th>Manufacturer Part #</th>
+<th>Vendor</th>
+<th>Total Cost</th>
+<th>Order Total</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>IC REG BUCK 3V 3A TO263</td>
+<td>4</td>
+<td>$3.32</td>
+<td>Texas Instruments</td>
+<td>LM2596S-(3.3V)/NOPB</td>
+<td>Digikey</td>
+<td>$13.28</td>
+<td>$168.73</td>
+</tr>
+<tr>
+<td>9V 12 W AC/DC External Wall Mount (Class II) Adapter Fixed Blade Input</td>
+<td>1</td>
+<td>$6.23</td>
+<td>GlobTek, Inc.</td>
+<td>1939-WR9HD1333CCP-F(R6B)-ND</td>
+<td>Digikey</td>
+<td>$6.23</td>
+<td></td>
+</tr>
+<tr>
+<td>BME 280 Breakout Board</td>
+<td>2</td>
+<td>$8.99</td>
+<td>HiLetgo</td>
+<td>GY-BME280-3.3</td>
+<td>Amazon</td>
+<td>$17.98</td>
+<td></td>
+</tr>
+<tr>
+<td>LED RED DIFFUSED GULL WING SMD</td>
+<td>5</td>
+<td>$2.01</td>
+<td>Broadcom Limited</td>
+<td>HLMP-Q150-F0011</td>
+<td>Digikey</td>
+<td>$10.05</td>
+<td></td>
+</tr>
+<tr>
+<td>LED BLUE ROUND 4SMD</td>
+<td>25</td>
+<td>$1.20</td>
+<td>Broadcom Limited</td>
+<td>ALMD-CB1E-VW002</td>
+<td>Digikey</td>
+<td>$30.00</td>
+<td></td>
+</tr>
+<tr>
+<td>Junction box enclosure.  5.9"D x 10.6"W x 14.6"H</td>
+<td>1</td>
+<td>$49.99</td>
+<td>Gratury</td>
+<td>G</td>
+<td>Amazon</td>
+<td>$49.99</td>
+<td></td>
+</tr>
+<tr>
+<td>ESP32 Microcontroller</td>
+<td>5</td>
+<td>$5.06</td>
+<td>Espressif Systems</td>
+<td>ESP32-S3-WROOM-1-N4</td>
+<td>Digikey</td>
+<td>$25.30</td>
+<td></td>
+</tr>
+<tr>
+<td>ESP32 Snap Programmer</td>
+<td>3</td>
+<td>$5.30</td>
+<td>M5 Stack</td>
+<td>S006</td>
+<td>Electromaker</td>
+<td>$15.90</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="final-component-selection-decision-making-process">Final Component Selection Decision Making Process</h3>
+<p>The final components were chosen based on simplicity, cost, available code libraries &amp; tutorials, and how well they fit the product requirements. All of the final components allow for Project Firesight to accomplish it's requirements. The switching voltage regulator provides stable power to the control panel and the weather station, which enables the product to function as intended. The BME 280 breakout board measures real-time environmental data to inform on wildfire susceptible areas. The LEDs are simple, but effective in indicating if an environmental threshold has been met and/or if a wildfire is susceptible in an area, which allows for a proactive approach to wildfire suppresion. The junction box is waterproof and durable, which protects the weather station components from the environment they are in, which is critical in maintaining product functionality. The snap programmer allows for the microcontroller to be programmed and the microcontroller controls the logic of the product, allowing for the transmission of real-time environmental data through ESP-NOW wireless communication. </p>
+<h3 id="final-component-selection-feedback">Final Component Selection Feedback</h3>
+<p>The teaching team advised to include an ESP32 Snap Programmer to the project's component list in case the USB programmer does not work. Thus, Electromaker's ESP32 Snap Programmer was added as a major component to Project Firesight. </p>
+<p><strong><em>Note</em></strong>: The motor driver, DC motor, and internal temperature sensor were not included in the final prototype as the motor driver was unable to be properly soldered with the surface mount equipment provided at Peralta Lab. The OUT+ and OUT- pins that drive the motor would consistently short with the GND pin on the driver due to how small the driver and the pads were. Thus, the motor and related components are left out of the summary table as they were unused. </p>
 
 
 
