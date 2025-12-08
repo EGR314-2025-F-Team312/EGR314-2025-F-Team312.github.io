@@ -436,4 +436,5 @@ The power budget was used to estimate the battery capacity required for final de
 ![Weather Station Battery](battery.png)
 
 **Cost**: $16.99
+
 **Product Link**: [Product Link](https://www.amazon.com/dp/B0F1T8ZXN8?ref_=ppx_hzod_title_dt_b_fed_asin_title_0_0)
