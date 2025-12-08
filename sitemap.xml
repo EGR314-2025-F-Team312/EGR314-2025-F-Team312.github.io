@@ -66,6 +66,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://embedded-systems-design.github.io/template_report/appendix/02_subpage/</loc>
+         <lastmod>2025-12-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://embedded-systems-design.github.io/template_report/component-selection-template/</loc>
          <lastmod>2025-12-08</lastmod>
          <changefreq>daily</changefreq>
