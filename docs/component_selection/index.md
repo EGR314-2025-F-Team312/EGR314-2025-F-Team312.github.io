@@ -408,3 +408,32 @@ The final components were chosen based on simplicity, cost, available code libra
 The teaching team advised to include an ESP32 Snap Programmer to the project's component list in case the USB programmer does not work. Thus, Electromaker's ESP32 Snap Programmer was added as a major component to Project Firesight. 
 
 **_Note_**: The motor driver, DC motor, and internal temperature sensor were not included in the final prototype as the motor driver was unable to be properly soldered with the surface mount equipment provided at Peralta Lab. The OUT+ and OUT- pins that drive the motor would consistently short with the GND pin on the driver due to how small the driver and the pads were. Thus, the motor and related components are left out of the summary table as they were unused. 
+
+## Battery Selection
+
+### Power Budget (Weather Station)
+
+| Component Name               | Part Number   | Supply (V) | # | Absolute Current (mA) | Total Current (mA) | Subtotal Current (mA) | Total Current Required (mA) |
+|------------------------------|---------------|------------|---|-----------------------|--------------------|-----------------------|-----------------------------|
+| ESP32-S3-WROOM-1             | N4            | 3.3 - 3.6  | 1 | 500                   | 500                | 3500.0036             | 4375.0045                   |
+| IC REG BUCK 3.3V 3A TO263-5L | LM2596S-3.3   | 4.75 - 40  | 1 | 3000                  | 3000               |                       |                             |
+| BME 280 Breakout Board       | GY-BME280-3.3 | 1.71 - 3.6 | 1 | 0.0036                | 0.0036             |
+
+### Power Budget (Control Panel) 
+
+| Component Name                 | Part Number     | Supply (V) | # | Absolute Current (mA) | Total Current (mA) | Subtotal Current (mA) | Total Current Required (mA) |
+|--------------------------------|-----------------|------------|---|-----------------------|--------------------|-----------------------|-----------------------------|
+| ESP32-S3-WROOM-1               | N4              | 3.3 - 3.6  | 1 | 500                   | 500                | 3622.0036             | 4527.5045                   |
+| IC REG BUCK 3.3V 3A TO263-5L   | LM2596S-3.3     | 4.75 - 40  | 1 | 3000                  | 3000               |                       |                             |
+| BME 280 Breakout Board         | GY-BME280-3.3   | 1.71 - 3.6 | 1 | 0.0036                | 0.0036             |                       |                             |
+| LED RED DIFFUSED GULL WING SMD | HLMP-Q150-F0011 | 1.6        | 2 | 1                     | 2                  |                       |                             |
+| LED BLUE ROUND 4SMD            | ALMD-CB1E-VW002 | 3.2        | 6 | 20                    | 120                |
+
+**_Note_**: The total current required was calculated by multiplying the subtotal current by 1.25 to provide a 25% safety margin. 
+
+The power budget was used to estimate the battery capacity required for final demonstration. Even though the switching voltage regulator can draw a current of up to 3A, during testing, the weather station board only pulled 13 mA from the school lab bench top power supplies. As a lithium ion battery was utilized for its recharging capabilities, and the switching voltage regulator requires a minimum voltage greater than what a one cell lithium ion battery can provide (3.7V), the team chose the cheapest two cell lithium ion battery with recharging capabilities. The battery chosen was a 7.4V 5Ah lithium ion battery. The product link for the weather station battery is below. The control panel board is powered by a wall outlet through an AC-DC 9V barrel jack plug. 
+
+![Weather Station Battery](battery.png)
+
+    * $16.99
+    * [Product Link](https://www.amazon.com/dp/B0F1T8ZXN8?ref_=ppx_hzod_title_dt_b_fed_asin_title_0_0)
