@@ -24,4 +24,8 @@ title: Project Resources
 
 ## Project Demonstration Video 
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7AkrasacVEY?si=ZWS6p1B5uSjaPsiJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+## Project Functionality Testing Video
+
+<iframe width="356" height="634" src="https://www.youtube.com/embed/S3LsLK89KOY" title="Project Firesight Testing" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
