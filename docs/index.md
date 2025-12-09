@@ -61,5 +61,12 @@ Project Firesight is a wireless weather station network that sends real-time env
 
 [Bill of Materials](./BOM.md)
 
-[Team Schematic](./team-schematic.md)
+[Final Schematic & PCB](./team-schematic.md)
+
+[Innovation Showcase Poster](./innovation-showcase-poster.md)
+
+[Project Resources](./project-resources.md)
+
+[Reflection](./reflection.md)
+
 
