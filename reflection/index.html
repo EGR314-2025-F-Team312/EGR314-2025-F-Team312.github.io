@@ -1234,45 +1234,47 @@
 
 <h2 id="lessons-learned">Lessons Learned</h2>
 <ol>
-<li>Research as much as possible </li>
-</ol>
+<li>
+<p>Research as much as possible </p>
 <p>Researching as much as possible will decrease the build and integration time significantly. By ensuring all circuits are accurate and all components are rated to work together, there will be less debugging errors that pop up, thereby allowing the project to be completed quicker. </p>
-<ol>
-<li>Verify the right components were soldered </li>
-</ol>
+</li>
+<li>
+<p>Verify the right components were soldered </p>
 <p>Sometimes the simplest mistake is the one that is usually made. If two different voltage regulators are in the project components, ensure that the right voltage regulator is used for it's respective circuit components. This was the reason why the voltage regulator system was not working on the control panel board during the first test. </p>
-<ol>
-<li>Get large surface mount components </li>
-</ol>
+</li>
+<li>
+<p>Get large surface mount components </p>
 <p>The college you are in will not always have the best or precise lab equipment. Furthermore, small surface mount components are extremely hard to hand solder if you have no prior experience. Make life easier for yourself and use large surface mount components, as the risk of shorting any pins is very low. </p>
-<ol>
-<li>Don't just check the datasheet, verify the datasheet</li>
-</ol>
+</li>
+<li>
+<p>Don't just check the datasheet, verify the datasheet</p>
 <p>Often times, the datasheet does not include all important information pertaining to your component. Look for additional advice on the internet from other people, whether it be forums or YouTube tutorials. The ESP32-S3-WROOM-1 datasheet did not specify that the boot pin needs a pullup resistor. The state of the boot pin is CRITICAL in executing logic. This likely prevented two of our microcontroller boards from working. </p>
-<ol>
-<li>Be cautious and think ahead</li>
-</ol>
+</li>
+<li>
+<p>Be cautious and think ahead</p>
 <p>Always have a back up plan for critical systems. The datasheet did not say that the built in USB compiler within the ESP32-S3 chip ONLY works if there is code in the ESP32-S3 chip. But a freshly bought chip has no code in it, so it was impossible to first program the chips with the USB connector, as initially planned. Having the snap programmer as a back up plan to program the board was critical in this project's success. </p>
-<ol>
-<li>Focus on minimum viable product first </li>
-</ol>
+</li>
+<li>
+<p>Focus on minimum viable product first </p>
 <p>With engineers, there is a tendency to dream up grand projects with complex functions. Start with the bare minimum first, as it will satisfy your stakeholders but also save yourself from a headache. Once the bare minimum has been accomplished, then build upon it. </p>
-<ol>
-<li>Integrate each code section one at a time </li>
-</ol>
+</li>
+<li>
+<p>Integrate each code section one at a time </p>
 <p>When integrating multiple components' logic together, start with one component at a time. That way, if multiple components have issues in them, you'll spot their errors one at a time, which can be less overwhelming than seeing multiple errors all at once. </p>
-<ol>
-<li>Don't hand solder SMD components on an empty stomach</li>
-</ol>
+</li>
+<li>
+<p>Don't hand solder SMD components on an empty stomach</p>
 <p>An empty stomach produces shaky hands and a less intelligent brain. Soldering SMD components is much easier if your hands are steady. </p>
-<ol>
-<li>Connect all of your MCU's GPIOs to male/female header pins </li>
-</ol>
+</li>
+<li>
+<p>Connect all of your MCU's GPIOs to male/female header pins </p>
 <p>When hand soldering your MCU, it is possible that you can short two important pins together. Sometimes, it is impossible to figure out how they shorted. By connectiong all of your MCU's GPIOs to pins that jumper wires can connect to, it gives your project flexibility. </p>
-<ol>
-<li>Buy plenty of microcontroller chips </li>
-</ol>
+</li>
+<li>
+<p>Buy plenty of microcontroller chips </p>
 <p>Microcontroller chips can be finicky, especially the ESP32 ones. Buying plenty of microcontroller chips ensures you are covered if some of them don't work. This is partially the reason why Project Firesight only had one weather station board working, as the rest of the ESP32 chips would not execute their program. </p>
+</li>
+</ol>
 <h2 id="top-5-recommendations-for-future-students">Top 5 Recommendations for Future Students</h2>
 <ol>
 <li>
