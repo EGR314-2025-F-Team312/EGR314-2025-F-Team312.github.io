@@ -41,6 +41,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://embedded-systems-design.github.io/template_report/reflection/</loc>
+         <lastmod>2025-12-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://embedded-systems-design.github.io/template_report/second-page/</loc>
          <lastmod>2025-12-09</lastmod>
          <changefreq>daily</changefreq>
