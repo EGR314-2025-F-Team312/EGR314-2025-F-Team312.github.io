@@ -1,5 +1,5 @@
 ---
-title: ESP32 C++ Code Aappendix
+title: ESP32 C++ Code Appendix
 ---
 
 ## Control Panel Code (C++)
