@@ -47,7 +47,7 @@ The schematic was designed to be as readable and simple as possible. Net labels 
 
 *Figure 6: Back Copper Layer - Weather Station*
 
-![Weather Station PCB Back](weatherstation_pcb_back) 
+![Weather Station PCB Back](weatherstation_pcb_back.png) 
 
 ### PCB Design & Decision Making Process
 
