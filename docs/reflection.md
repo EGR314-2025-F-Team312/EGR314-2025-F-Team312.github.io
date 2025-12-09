@@ -6,43 +6,43 @@ title: Reflection
 
 1. Research as much as possible 
 
-Researching as much as possible will decrease the build and integration time significantly. By ensuring all circuits are accurate and all components are rated to work together, there will be less debugging errors that pop up, thereby allowing the project to be completed quicker. 
+    Researching as much as possible will decrease the build and integration time significantly. By ensuring all circuits are accurate and all components are rated to work together, there will be less debugging errors that pop up, thereby allowing the project to be completed quicker. 
 
 2. Verify the right components were soldered 
 
-Sometimes the simplest mistake is the one that is usually made. If two different voltage regulators are in the project components, ensure that the right voltage regulator is used for it's respective circuit components. This was the reason why the voltage regulator system was not working on the control panel board during the first test. 
+    Sometimes the simplest mistake is the one that is usually made. If two different voltage regulators are in the project components, ensure that the right voltage regulator is used for it's respective circuit components. This was the reason why the voltage regulator system was not working on the control panel board during the first test. 
 
 3. Get large surface mount components 
 
-The college you are in will not always have the best or precise lab equipment. Furthermore, small surface mount components are extremely hard to hand solder if you have no prior experience. Make life easier for yourself and use large surface mount components, as the risk of shorting any pins is very low. 
+    The college you are in will not always have the best or precise lab equipment. Furthermore, small surface mount components are extremely hard to hand solder if you have no prior experience. Make life easier for yourself and use large surface mount components, as the risk of shorting any pins is very low. 
 
 4. Don't just check the datasheet, verify the datasheet
 
-Often times, the datasheet does not include all important information pertaining to your component. Look for additional advice on the internet from other people, whether it be forums or YouTube tutorials. The ESP32-S3-WROOM-1 datasheet did not specify that the boot pin needs a pullup resistor. The state of the boot pin is CRITICAL in executing logic. This likely prevented two of our microcontroller boards from working. 
+    Often times, the datasheet does not include all important information pertaining to your component. Look for additional advice on the internet from other people, whether it be forums or YouTube tutorials. The ESP32-S3-WROOM-1 datasheet did not specify that the boot pin needs a pullup resistor. The state of the boot pin is CRITICAL in executing logic. This likely prevented two of our microcontroller boards from working. 
 
 5. Be cautious and think ahead
 
-Always have a back up plan for critical systems. The datasheet did not say that the built in USB compiler within the ESP32-S3 chip ONLY works if there is code in the ESP32-S3 chip. But a freshly bought chip has no code in it, so it was impossible to first program the chips with the USB connector, as initially planned. Having the snap programmer as a back up plan to program the board was critical in this project's success. 
+    Always have a back up plan for critical systems. The datasheet did not say that the built in USB compiler within the ESP32-S3 chip ONLY works if there is code in the ESP32-S3 chip. But a freshly bought chip has no code in it, so it was impossible to first program the chips with the USB connector, as initially planned. Having the snap programmer as a back up plan to program the board was critical in this project's success. 
 
 6. Focus on minimum viable product first 
 
-With engineers, there is a tendency to dream up grand projects with complex functions. Start with the bare minimum first, as it will satisfy your stakeholders but also save yourself from a headache. Once the bare minimum has been accomplished, then build upon it. 
+    With engineers, there is a tendency to dream up grand projects with complex functions. Start with the bare minimum first, as it will satisfy your stakeholders but also save yourself from a headache. Once the bare minimum has been accomplished, then build upon it. 
 
 7. Integrate each code section one at a time 
 
-When integrating multiple components' logic together, start with one component at a time. That way, if multiple components have issues in them, you'll spot their errors one at a time, which can be less overwhelming than seeing multiple errors all at once. 
+    When integrating multiple components' logic together, start with one component at a time. That way, if multiple components have issues in them, you'll spot their errors one at a time, which can be less overwhelming than seeing multiple errors all at once. 
 
 8. Don't hand solder SMD components on an empty stomach
 
-An empty stomach produces shaky hands and a less intelligent brain. Soldering SMD components is much easier if your hands are steady. 
+    An empty stomach produces shaky hands and a less intelligent brain. Soldering SMD components is much easier if your hands are steady. 
 
 9. Connect all of your MCU's GPIOs to male/female header pins 
 
-When hand soldering your MCU, it is possible that you can short two important pins together. Sometimes, it is impossible to figure out how they shorted. By connectiong all of your MCU's GPIOs to pins that jumper wires can connect to, it gives your project flexibility. 
+    When hand soldering your MCU, it is possible that you can short two important pins together. Sometimes, it is impossible to figure out how they shorted. By connectiong all of your MCU's GPIOs to pins that jumper wires can connect to, it gives your project flexibility. 
 
 10. Buy plenty of microcontroller chips 
 
-Microcontroller chips can be finicky, especially the ESP32 ones. Buying plenty of microcontroller chips ensures you are covered if some of them don't work. This is partially the reason why Project Firesight only had one weather station board working, as the rest of the ESP32 chips would not execute their program. 
+    Microcontroller chips can be finicky, especially the ESP32 ones. Buying plenty of microcontroller chips ensures you are covered if some of them don't work. This is partially the reason why Project Firesight only had one weather station board working, as the rest of the ESP32 chips would not execute their program. 
 
 ## Top 5 Recommendations for Future Students
 
